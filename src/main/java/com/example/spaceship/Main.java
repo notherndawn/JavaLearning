@@ -1,4 +1,4 @@
-package spaceship;
+package main.java.com.example.spaceship;
 
 import java.util.Scanner;
 

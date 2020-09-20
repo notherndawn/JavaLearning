@@ -1,4 +1,4 @@
-package figures;
+package main.java.com.example.figures;
 
 import java.util.ArrayList;
 import java.util.Arrays;

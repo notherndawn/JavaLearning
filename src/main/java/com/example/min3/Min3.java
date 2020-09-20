@@ -1,4 +1,4 @@
-package min3;
+package main.java.com.example.min3;
 
 public class Min3 {
     public static void main(String[] args) {

@@ -1,20 +1,21 @@
-package figures;
+package main.java.com.example.figures;
 
 import java.util.Formatter;
 
-public class Rectangle implements Shape{
+public class Triangle implements Shape{
     double a = Math.random()*1000;
     double b = Math.random()*1000;
+    double c = Math.random()*1000;
 
     @Override
     public double getPerimeter() {
-        return 2 * (a + b);
+        return a + b + c;
     }
 
     @Override
     public String getInfo() {
         Formatter formatter = new Formatter();
-        formatter.format("This is rectangle with a = %f; b = %f. Perimeter = %f", a, b, getPerimeter());
+        formatter.format("This is triangle with a = %f; b = %f; c = %f. Perimeter = %f", a, b, c, getPerimeter());
 
         return formatter.toString();
     }

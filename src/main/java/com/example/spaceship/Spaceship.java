@@ -1,4 +1,4 @@
-package spaceship;
+package main.java.com.example.spaceship;
 
 public class Spaceship {
     private int speed;
